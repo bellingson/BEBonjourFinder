@@ -1,0 +1,29 @@
+
+This API simplifies the discovery of network services using the Bonjour protocol.
+
+If you need to dynamically discover services on the local network, Bonjour is a very handy protocol.
+
+However, the NSNetServiceBrowser and NSNetService APIs are a little cumbersome.
+
+I want one simple thing from NSNetServiceBrowser... a list of available Bonjour services on the local network.  
+I don't care to implement all the possible permutations of various error handling scenarios. If you 
+work directly with NSNetServiceBrowser and NSNetService, expect to write some exceedingly verbose code.
+
+This API will simplify things.... Usage: 
+
+
+BEBonjourFinder *finder = [[BEBonjourFinder alloc] init];
+finder.delegate = self;
+[finder findWebServices];
+
+// implement the BEBonjourFinderDelegate protocol
+
+- (void) didFindBonjourHosts: (NSArray *) hostNames {
+
+    // do something with the list of host names
+
+}
+
+
+
+

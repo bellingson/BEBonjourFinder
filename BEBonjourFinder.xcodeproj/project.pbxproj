@@ -59,6 +59,7 @@
 		B578AE8813836013007E3FF9 /* BEBonjourFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BEBonjourFinder.h; path = Classes/BEBonjourFinder.h; sourceTree = "<group>"; };
 		B578AE8913836013007E3FF9 /* BEBonjourFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BEBonjourFinder.m; path = Classes/BEBonjourFinder.m; sourceTree = "<group>"; };
 		B578AE911383621A007E3FF9 /* BEBonjourFinderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BEBonjourFinderDelegate.h; path = Classes/BEBonjourFinderDelegate.h; sourceTree = "<group>"; };
+		B5E51811138375660025FF38 /* README */ = {isa = PBXFileReference; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +89,7 @@
 		B578AE3F13835F9D007E3FF9 = {
 			isa = PBXGroup;
 			children = (
+				B5E51811138375660025FF38 /* README */,
 				B578AE8713835FD7007E3FF9 /* Classes */,
 				B578AE5413835F9D007E3FF9 /* BEBonjourFinder */,
 				B578AE7413835F9D007E3FF9 /* BEBonjourFinderTests */,
@@ -459,6 +461,7 @@
 				B578AE8313835F9E007E3FF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B578AE8413835F9E007E3FF9 /* Build configuration list for PBXNativeTarget "BEBonjourFinderTests" */ = {
 			isa = XCConfigurationList;
@@ -467,6 +470,7 @@
 				B578AE8613835F9E007E3FF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
