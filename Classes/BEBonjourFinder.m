@@ -126,7 +126,7 @@
 
 - (void)netServiceBrowser:(NSNetServiceBrowser *)aNetServiceBrowser didFindService:(NSNetService *)aNetService moreComing:(BOOL)moreComing {
 
-    NSLog(@"found service: %@",[aNetService name]);    
+    //NSLog(@"found service: %@",[aNetService name]);    
     
     if ([self acceptService: aNetService] == NO) return;
     

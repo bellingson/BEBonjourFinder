@@ -8,8 +8,11 @@
 
 #import <SenTestingKit/SenTestingKit.h>
 
+#import "BEBonjourFinder.h"
+#import "BEBonjourFinderDelegate.h"
 
-@interface BEBonjourFinderTests : SenTestCase {
+
+@interface BEBonjourFinderTests : SenTestCase <BEBonjourFinderDelegate> {
 @private
     
 }
