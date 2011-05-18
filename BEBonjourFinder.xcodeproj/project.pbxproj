@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B578AE4F13835F9D007E3FF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B578AE4E13835F9D007E3FF9 /* UIKit.framework */; };
+		B578AE5113835F9D007E3FF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B578AE5013835F9D007E3FF9 /* Foundation.framework */; };
+		B578AE5313835F9D007E3FF9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B578AE5213835F9D007E3FF9 /* CoreGraphics.framework */; };
+		B578AE5913835F9D007E3FF9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B578AE5713835F9D007E3FF9 /* InfoPlist.strings */; };
+		B578AE5C13835F9D007E3FF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B578AE5B13835F9D007E3FF9 /* main.m */; };
+		B578AE5F13835F9D007E3FF9 /* BEBonjourFinderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B578AE5E13835F9D007E3FF9 /* BEBonjourFinderAppDelegate.m */; };
+		B578AE6213835F9D007E3FF9 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B578AE6013835F9D007E3FF9 /* MainWindow.xib */; };
+		B578AE6513835F9D007E3FF9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B578AE6413835F9D007E3FF9 /* RootViewController.m */; };
+		B578AE6813835F9D007E3FF9 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B578AE6613835F9D007E3FF9 /* RootViewController.xib */; };
+		B578AE6F13835F9D007E3FF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B578AE4E13835F9D007E3FF9 /* UIKit.framework */; };
+		B578AE7013835F9D007E3FF9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B578AE5013835F9D007E3FF9 /* Foundation.framework */; };
+		B578AE7113835F9D007E3FF9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B578AE5213835F9D007E3FF9 /* CoreGraphics.framework */; };
+		B578AE7913835F9D007E3FF9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B578AE7713835F9D007E3FF9 /* InfoPlist.strings */; };
+		B578AE7C13835F9E007E3FF9 /* BEBonjourFinderTests.h in Resources */ = {isa = PBXBuildFile; fileRef = B578AE7B13835F9E007E3FF9 /* BEBonjourFinderTests.h */; };
+		B578AE7E13835F9E007E3FF9 /* BEBonjourFinderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B578AE7D13835F9E007E3FF9 /* BEBonjourFinderTests.m */; };
+		B578AE8A13836013007E3FF9 /* BEBonjourFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = B578AE8913836013007E3FF9 /* BEBonjourFinder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B578AE7213835F9D007E3FF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B578AE4113835F9D007E3FF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B578AE4913835F9D007E3FF9;
+			remoteInfo = BEBonjourFinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B578AE4A13835F9D007E3FF9 /* BEBonjourFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BEBonjourFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B578AE4E13835F9D007E3FF9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B578AE5013835F9D007E3FF9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B578AE5213835F9D007E3FF9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B578AE5613835F9D007E3FF9 /* BEBonjourFinder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BEBonjourFinder-Info.plist"; sourceTree = "<group>"; };
+		B578AE5813835F9D007E3FF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B578AE5A13835F9D007E3FF9 /* BEBonjourFinder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BEBonjourFinder-Prefix.pch"; sourceTree = "<group>"; };
+		B578AE5B13835F9D007E3FF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B578AE5D13835F9D007E3FF9 /* BEBonjourFinderAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEBonjourFinderAppDelegate.h; sourceTree = "<group>"; };
+		B578AE5E13835F9D007E3FF9 /* BEBonjourFinderAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEBonjourFinderAppDelegate.m; sourceTree = "<group>"; };
+		B578AE6113835F9D007E3FF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B578AE6313835F9D007E3FF9 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		B578AE6413835F9D007E3FF9 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		B578AE6713835F9D007E3FF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		B578AE6E13835F9D007E3FF9 /* BEBonjourFinderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BEBonjourFinderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B578AE7613835F9D007E3FF9 /* BEBonjourFinderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BEBonjourFinderTests-Info.plist"; sourceTree = "<group>"; };
+		B578AE7813835F9D007E3FF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B578AE7A13835F9D007E3FF9 /* BEBonjourFinderTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BEBonjourFinderTests-Prefix.pch"; sourceTree = "<group>"; };
+		B578AE7B13835F9E007E3FF9 /* BEBonjourFinderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEBonjourFinderTests.h; sourceTree = "<group>"; };
+		B578AE7D13835F9E007E3FF9 /* BEBonjourFinderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEBonjourFinderTests.m; sourceTree = "<group>"; };
+		B578AE8813836013007E3FF9 /* BEBonjourFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BEBonjourFinder.h; path = Classes/BEBonjourFinder.h; sourceTree = "<group>"; };
+		B578AE8913836013007E3FF9 /* BEBonjourFinder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BEBonjourFinder.m; path = Classes/BEBonjourFinder.m; sourceTree = "<group>"; };
+		B578AE911383621A007E3FF9 /* BEBonjourFinderDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BEBonjourFinderDelegate.h; path = Classes/BEBonjourFinderDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B578AE4713835F9D007E3FF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B578AE4F13835F9D007E3FF9 /* UIKit.framework in Frameworks */,
+				B578AE5113835F9D007E3FF9 /* Foundation.framework in Frameworks */,
+				B578AE5313835F9D007E3FF9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B578AE6A13835F9D007E3FF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B578AE6F13835F9D007E3FF9 /* UIKit.framework in Frameworks */,
+				B578AE7013835F9D007E3FF9 /* Foundation.framework in Frameworks */,
+				B578AE7113835F9D007E3FF9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B578AE3F13835F9D007E3FF9 = {
+			isa = PBXGroup;
+			children = (
+				B578AE8713835FD7007E3FF9 /* Classes */,
+				B578AE5413835F9D007E3FF9 /* BEBonjourFinder */,
+				B578AE7413835F9D007E3FF9 /* BEBonjourFinderTests */,
+				B578AE4D13835F9D007E3FF9 /* Frameworks */,
+				B578AE4B13835F9D007E3FF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B578AE4B13835F9D007E3FF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B578AE4A13835F9D007E3FF9 /* BEBonjourFinder.app */,
+				B578AE6E13835F9D007E3FF9 /* BEBonjourFinderTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B578AE4D13835F9D007E3FF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B578AE4E13835F9D007E3FF9 /* UIKit.framework */,
+				B578AE5013835F9D007E3FF9 /* Foundation.framework */,
+				B578AE5213835F9D007E3FF9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B578AE5413835F9D007E3FF9 /* BEBonjourFinder */ = {
+			isa = PBXGroup;
+			children = (
+				B578AE5D13835F9D007E3FF9 /* BEBonjourFinderAppDelegate.h */,
+				B578AE5E13835F9D007E3FF9 /* BEBonjourFinderAppDelegate.m */,
+				B578AE6013835F9D007E3FF9 /* MainWindow.xib */,
+				B578AE6313835F9D007E3FF9 /* RootViewController.h */,
+				B578AE6413835F9D007E3FF9 /* RootViewController.m */,
+				B578AE6613835F9D007E3FF9 /* RootViewController.xib */,
+				B578AE5513835F9D007E3FF9 /* Supporting Files */,
+			);
+			path = BEBonjourFinder;
+			sourceTree = "<group>";
+		};
+		B578AE5513835F9D007E3FF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B578AE5613835F9D007E3FF9 /* BEBonjourFinder-Info.plist */,
+				B578AE5713835F9D007E3FF9 /* InfoPlist.strings */,
+				B578AE5A13835F9D007E3FF9 /* BEBonjourFinder-Prefix.pch */,
+				B578AE5B13835F9D007E3FF9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B578AE7413835F9D007E3FF9 /* BEBonjourFinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				B578AE7B13835F9E007E3FF9 /* BEBonjourFinderTests.h */,
+				B578AE7D13835F9E007E3FF9 /* BEBonjourFinderTests.m */,
+				B578AE7513835F9D007E3FF9 /* Supporting Files */,
+			);
+			path = BEBonjourFinderTests;
+			sourceTree = "<group>";
+		};
+		B578AE7513835F9D007E3FF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B578AE7613835F9D007E3FF9 /* BEBonjourFinderTests-Info.plist */,
+				B578AE7713835F9D007E3FF9 /* InfoPlist.strings */,
+				B578AE7A13835F9D007E3FF9 /* BEBonjourFinderTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B578AE8713835FD7007E3FF9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B578AE8813836013007E3FF9 /* BEBonjourFinder.h */,
+				B578AE8913836013007E3FF9 /* BEBonjourFinder.m */,
+				B578AE911383621A007E3FF9 /* BEBonjourFinderDelegate.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B578AE4913835F9D007E3FF9 /* BEBonjourFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B578AE8113835F9E007E3FF9 /* Build configuration list for PBXNativeTarget "BEBonjourFinder" */;
+			buildPhases = (
+				B578AE4613835F9D007E3FF9 /* Sources */,
+				B578AE4713835F9D007E3FF9 /* Frameworks */,
+				B578AE4813835F9D007E3FF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BEBonjourFinder;
+			productName = BEBonjourFinder;
+			productReference = B578AE4A13835F9D007E3FF9 /* BEBonjourFinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B578AE6D13835F9D007E3FF9 /* BEBonjourFinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B578AE8413835F9E007E3FF9 /* Build configuration list for PBXNativeTarget "BEBonjourFinderTests" */;
+			buildPhases = (
+				B578AE6913835F9D007E3FF9 /* Sources */,
+				B578AE6A13835F9D007E3FF9 /* Frameworks */,
+				B578AE6B13835F9D007E3FF9 /* Resources */,
+				B578AE6C13835F9D007E3FF9 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B578AE7313835F9D007E3FF9 /* PBXTargetDependency */,
+			);
+			name = BEBonjourFinderTests;
+			productName = BEBonjourFinderTests;
+			productReference = B578AE6E13835F9D007E3FF9 /* BEBonjourFinderTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B578AE4113835F9D007E3FF9 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B578AE4413835F9D007E3FF9 /* Build configuration list for PBXProject "BEBonjourFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B578AE3F13835F9D007E3FF9;
+			productRefGroup = B578AE4B13835F9D007E3FF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B578AE4913835F9D007E3FF9 /* BEBonjourFinder */,
+				B578AE6D13835F9D007E3FF9 /* BEBonjourFinderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B578AE4813835F9D007E3FF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B578AE5913835F9D007E3FF9 /* InfoPlist.strings in Resources */,
+				B578AE6213835F9D007E3FF9 /* MainWindow.xib in Resources */,
+				B578AE6813835F9D007E3FF9 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B578AE6B13835F9D007E3FF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B578AE7913835F9D007E3FF9 /* InfoPlist.strings in Resources */,
+				B578AE7C13835F9E007E3FF9 /* BEBonjourFinderTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B578AE6C13835F9D007E3FF9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B578AE4613835F9D007E3FF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B578AE5C13835F9D007E3FF9 /* main.m in Sources */,
+				B578AE5F13835F9D007E3FF9 /* BEBonjourFinderAppDelegate.m in Sources */,
+				B578AE6513835F9D007E3FF9 /* RootViewController.m in Sources */,
+				B578AE8A13836013007E3FF9 /* BEBonjourFinder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B578AE6913835F9D007E3FF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B578AE7E13835F9E007E3FF9 /* BEBonjourFinderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B578AE7313835F9D007E3FF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B578AE4913835F9D007E3FF9 /* BEBonjourFinder */;
+			targetProxy = B578AE7213835F9D007E3FF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B578AE5713835F9D007E3FF9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B578AE5813835F9D007E3FF9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B578AE6013835F9D007E3FF9 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B578AE6113835F9D007E3FF9 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		B578AE6613835F9D007E3FF9 /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B578AE6713835F9D007E3FF9 /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		B578AE7713835F9D007E3FF9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B578AE7813835F9D007E3FF9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B578AE7F13835F9E007E3FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B578AE8013835F9E007E3FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B578AE8213835F9E007E3FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BEBonjourFinder/BEBonjourFinder-Prefix.pch";
+				INFOPLIST_FILE = "BEBonjourFinder/BEBonjourFinder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B578AE8313835F9E007E3FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BEBonjourFinder/BEBonjourFinder-Prefix.pch";
+				INFOPLIST_FILE = "BEBonjourFinder/BEBonjourFinder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B578AE8513835F9E007E3FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BEBonjourFinder.app/BEBonjourFinder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BEBonjourFinderTests/BEBonjourFinderTests-Prefix.pch";
+				INFOPLIST_FILE = "BEBonjourFinderTests/BEBonjourFinderTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B578AE8613835F9E007E3FF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BEBonjourFinder.app/BEBonjourFinder";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BEBonjourFinderTests/BEBonjourFinderTests-Prefix.pch";
+				INFOPLIST_FILE = "BEBonjourFinderTests/BEBonjourFinderTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B578AE4413835F9D007E3FF9 /* Build configuration list for PBXProject "BEBonjourFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B578AE7F13835F9E007E3FF9 /* Debug */,
+				B578AE8013835F9E007E3FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B578AE8113835F9E007E3FF9 /* Build configuration list for PBXNativeTarget "BEBonjourFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B578AE8213835F9E007E3FF9 /* Debug */,
+				B578AE8313835F9E007E3FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B578AE8413835F9E007E3FF9 /* Build configuration list for PBXNativeTarget "BEBonjourFinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B578AE8513835F9E007E3FF9 /* Debug */,
+				B578AE8613835F9E007E3FF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B578AE4113835F9D007E3FF9 /* Project object */;
+}

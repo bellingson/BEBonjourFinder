@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'BEBonjourFinderTests' target in the 'BEBonjourFinderTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
