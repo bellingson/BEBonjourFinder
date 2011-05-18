@@ -5,9 +5,11 @@ If you need to dynamically discover services on the local network, Bonjour is a 
 
 However, the NSNetServiceBrowser and NSNetService APIs are a little cumbersome.
 
-I want one simple thing from NSNetServiceBrowser... a list of available Bonjour services on the local network.  
-I don't care to implement all the possible permutations of various error handling scenarios. If you 
-work directly with NSNetServiceBrowser and NSNetService, expect to write some exceedingly verbose code.
+I want one simple thing from NSNetServiceBrowser... a list of host names of the available Bonjour 
+services on the local network.  I don't care to implement all the possible permutations of various 
+error handling scenarios. If there are available services, just give me a list of host names... 
+forget the errors or other details.  If you work directly with NSNetServiceBrowser and NSNetService, 
+expect to write some exceedingly verbose code.
 
 This API will simplify things.... Usage: 
 
@@ -25,5 +27,18 @@ finder.delegate = self;
 }
 
 
+-- Apache Config ---------------------------------------------------------------------------------
+
+I'm using bonjour to discover apache content servers on the local network without zero naming.
+
+Add / modify the following in your httpd.conf
 
 
+
+<IfModule bonjour_module>
+#       RegisterUserSite customized-users
+#       RegisterDefaultSite
+
+        RegisterResource "myhost" "/s/"
+
+</IfModule>
